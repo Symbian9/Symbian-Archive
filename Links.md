@@ -1,3 +1,5 @@
+## Useful Links
+
 ### Symbian Foundation Wiki
 
 Artjom Vejsel kindly host a mirror of the Symbian Foundation Wiki. [link](https://akawolf.org/wiki/)
@@ -19,6 +21,12 @@ For one short year, Nokia open-sourced their Symbian smartphone operating system
 ### Accessroot Arteam's Symbian tools and tutorials
 
 This is a collection of tools and tutorials created by the Accessroot Arteam. They are mostly focused on reverse engineering and implementation details of Symbian OS. Since their official website is frequently offline here is an archive of all their Symbian work ([link](https://mega.nz/#!j8gQVABI!MOWKcTM61x87IIau0QdFYLeVVjpamCuiyFafR3OFSmI)) and of all of their work available on their website in 2016 ([link](https://mega.nz/#!v9ZAGLAQ!TTquoYgJCkWTDmOdxv0AU18x8sOpAKYMJ43-jNG0jbE)).
+
+<br>
+
+### N-Gage docs, firwmares, ...
+
+This is sort of the "ancestor" projet to this one (Symbian Archive). NGemu had the goal of being an N-Gage emulator. While the projet has now changed it's approach and is now living somewhere else, a lot of the n-gage specific documentations, tools and articles that were collected haven't yet been added to this website. [link](https://github.com/NGEmu/NGEmu/wiki)
 
 <br>
 

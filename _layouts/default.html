@@ -10,6 +10,20 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <title>{{ site.title | default: site.github.repository_name }}</title>
+	
+	<!-- ANALYTICS -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-105363106-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	
   </head>
 
   <body>
@@ -31,6 +45,9 @@
 		</header>
 		<header>
 		  <ul>
+			<!--<a href="javascript:void(0)"  class="show-menu">Show Menu</a>-->
+			<label for="show-menu" class="show-menu">Show Menu</label>
+			<input type="checkbox" id="show-menu" role="button" />
 			<li><a href="index.html">Home</a></li>
 			<li class="dropdown">
 				<a href="javascript:void(0)" class="dropbtn">SDKs</a>
@@ -48,7 +65,7 @@
 			<li><a href="Dep&IDE.html">Dependencies &amp; IDE</a></li>
 			<li><a href="Themes.html">Theme Making</a></li>
 			<li><a href="Documentation.html">Documentation</a></li>
-			<li><a href="Tools.html">Modding Tools</a></li>
+			<li><a href="Tools.html">Tools</a></li>
 			<li><a href="Links.html">Useful Links</a></li>	
 		  </ul>
         </header>
@@ -70,7 +87,6 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
 
 
   </body>

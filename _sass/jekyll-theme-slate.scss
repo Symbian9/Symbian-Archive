@@ -90,6 +90,7 @@ h6 {
 
 p {
   margin: 10px 0 15px 0;
+  text-align: justify;
 }
 
 footer p {
@@ -483,6 +484,72 @@ header li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+/*Hide checkbox*/
+input[type=checkbox] {
+    display:none;
+}
+	
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ li a{
+    display:block;
+    margin:0 auto;
+}
+
+input[type=checkbox]:checked ~ li.dropdown{
+    display:block;
+    margin:0 auto;
+}
+
+.show-menu {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.show-menu a:hover {background-color: #f1f1f1}
+
+/*Responsive Styles*/
+@media screen and (max-width : 760px) {
+	header li a, .dropbtn {
+		display: none;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+		
+	/*Display 'show menu' link*/	
+	.show-menu {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		margin:0 auto;
+	}
+	
+	.show-menu:hover {
+	    background-color: #111;
+	}
+	
+	header li.dropdown{
+		display: block
+	}
+	
+	.dropdown-content {
+		position: static;
+	}
+	
+	.dropdown-content a {
+		text-align: center;
+	}
+	
+}
+
 
 #tocs ul {
 	margin-bottom: 1px
